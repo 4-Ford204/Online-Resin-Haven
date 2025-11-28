@@ -25,7 +25,7 @@ namespace Product.API
 
             services.AddDbContext<OnlineResinHaven>(options =>
             {
-                options.UseSqlServer(configuration.GetConnectionString("DatabaseContext"));
+                options.UseSqlServer(configuration.GetConnectionString("OnlineResinHaven"));
             });
 
             services.AddInfrastructure(configuration);

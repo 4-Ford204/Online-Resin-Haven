@@ -23,6 +23,11 @@ namespace ORH.Infrastructure.DatabaseContext.Initiation.Seeding
 
             if (entities != null)
             {
+                foreach (var entity in entities)
+                {
+                    entity.GetType().GetProperty("Id")?.SetValue(entity, 0);
+                }
+
                 await DbSet.AddRangeAsync(entities);
             }
         }

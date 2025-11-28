@@ -47,12 +47,20 @@ namespace ORH.Infrastructure.Implementation.Shared.Messaging
                                 });
                             });
 
-                            break;
+                            return;
                         default:
                             break;
                     }
                 }
             }
+
+            services.AddMassTransit(masstransit =>
+            {
+                masstransit.UsingInMemory((context, bus) =>
+                {
+                    bus.ConfigureEndpoints(context);
+                });
+            });
         }
     }
 }

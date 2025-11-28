@@ -11,7 +11,7 @@ namespace Customer.API.Installers
         {
             services.AddDbContext<OnlineResinHaven>(options =>
             {
-                options.UseSqlServer(configuration.GetConnectionString("DatabaseContext"));
+                options.UseSqlServer(configuration.GetConnectionString("OnlineResinHaven"));
             });
 
             var serviceProvider = services.BuildServiceProvider();

@@ -25,7 +25,7 @@ namespace ORH.Infrastructure.DatabaseContext
                     .SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "..", "Customer.API"))
                     .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
                 var configuration = builder.Build();
-                var connectionString = configuration.GetConnectionString("MSSQL");
+                var connectionString = configuration.GetConnectionString("OnlineResinHaven");
 
                 optionsBuilder.UseSqlServer(connectionString);
             }

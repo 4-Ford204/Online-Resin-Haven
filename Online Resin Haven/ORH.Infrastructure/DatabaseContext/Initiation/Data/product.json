@@ -4,6 +4,7 @@
     "CharacterId": 1,
     "StudioId": 2,
     "Name": "Monkey D. Luffy - Onigashima - Version 1",
+    "Quantity": 10,
     "Price": 1050000
   },
   {
@@ -11,6 +12,7 @@
     "CharacterId": 1,
     "StudioId": 2,
     "Name": "Monkey D. Luffy - Onigashima - Version 2",
+    "Quantity": 10,
     "Price": 1150000
   },
   {
@@ -18,6 +20,7 @@
     "CharacterId": 2,
     "StudioId": 2,
     "Name": "Roronoa Zoro - Onigashima - A",
+    "Quantity": 10,
     "Price": 1050000
   },
   {
@@ -25,6 +28,7 @@
     "CharacterId": 2,
     "StudioId": 2,
     "Name": "Roronoa Zoro - Onigashima - B",
+    "Quantity": 10,
     "Price": 1050000
   },
   {
@@ -32,6 +36,7 @@
     "CharacterId": 2,
     "StudioId": 2,
     "Name": "Roronoa Zoro - Onigashima - C",
+    "Quantity": 10,
     "Price": 1250000
   },
   {
@@ -39,6 +44,7 @@
     "CharacterId": 4,
     "StudioId": 2,
     "Name": "Usopp - Onigashima",
+    "Quantity": 10,
     "Price": 1300000
   },
   {
@@ -46,6 +52,7 @@
     "CharacterId": 4,
     "StudioId": 2,
     "Name": "Usopp - Onigashima + Grass Dog",
+    "Quantity": 10,
     "Price": 2700000
   },
   {
@@ -53,6 +60,7 @@
     "CharacterId": 5,
     "StudioId": 2,
     "Name": "Vinsmoke Sanji - Onigashima",
+    "Quantity": 10,
     "Price": 1050000
   },
   {
@@ -60,6 +68,7 @@
     "CharacterId": 5,
     "StudioId": 2,
     "Name": "Vinsmoke Sanji - Cake Island",
+    "Quantity": 10,
     "Price": 1250000
   },
   {
@@ -67,6 +76,7 @@
     "CharacterId": 6,
     "StudioId": 2,
     "Name": "Tony Tony Chopper",
+    "Quantity": 10,
     "Price": 1000000
   },
   {
@@ -74,6 +84,7 @@
     "CharacterId": 6,
     "StudioId": 2,
     "Name": "Tony Tony Chopper - Onigashima",
+    "Quantity": 10,
     "Price": 1500000
   },
   {
@@ -81,6 +92,7 @@
     "CharacterId": 6,
     "StudioId": 2,
     "Name": "Tony Tony Chopper - Monster Point",
+    "Quantity": 10,
     "Price": 2100000
   },
   {
@@ -88,6 +100,7 @@
     "CharacterId": 6,
     "StudioId": 2,
     "Name": "Tony Tony Chopper - Onigashima - Monster Point",
+    "Quantity": 10,
     "Price": 2100000
   },
   {
@@ -95,6 +108,7 @@
     "CharacterId": 7,
     "StudioId": 2,
     "Name": "Nico Robin - Onigashima",
+    "Quantity": 10,
     "Price": 1300000
   },
   {
@@ -102,6 +116,7 @@
     "CharacterId": 7,
     "StudioId": 2,
     "Name": "Nico Robin - Onigashima - Angel",
+    "Quantity": 10,
     "Price": 1790000
   },
   {
@@ -109,6 +124,7 @@
     "CharacterId": 7,
     "StudioId": 2,
     "Name": "Nico Robin - Onigashima - Demon",
+    "Quantity": 10,
     "Price": 2130000
   },
   {
@@ -116,6 +132,7 @@
     "CharacterId": 10,
     "StudioId": 2,
     "Name": "Jinbei - Marineford",
+    "Quantity": 10,
     "Price": 1720000
   },
   {
@@ -123,6 +140,7 @@
     "CharacterId": 10,
     "StudioId": 2,
     "Name": "Jinbei - Onigashima",
+    "Quantity": 10,
     "Price": 1720000
   }
 ]
