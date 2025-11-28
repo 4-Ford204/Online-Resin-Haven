@@ -36,6 +36,6 @@ This is backend of an online resin figures store which is built with .NET 9.0 an
 ### 🗃️ Migration
 
 ```
-dotnet ef migrations add InitialCreate --context DataContext --output-dir MSSQL/Migrations
-dotnet ef database update --context DataContext
+dotnet ef migrations add InitialCreate --context OnlineResinHaven --output-dir DatabaseContext/Migrations
+dotnet ef database update --context OnlineResinHaven
 ```
