@@ -1,0 +1,42 @@
+﻿[
+  {
+    "Id": 1,
+    "Name": "A+ Studio"
+  },
+  {
+    "Id": 2,
+    "Name": "BBF Studio"
+  },
+  {
+    "Id": 3,
+    "Name": "DK Studio"
+  },
+  {
+    "Id": 4,
+    "Name": "G5 Studio"
+  },
+  {
+    "Id": 5,
+    "Name": "League Studio"
+  },
+  {
+    "Id": 6,
+    "Name": "MDS Studio"
+  },
+  {
+    "Id": 7,
+    "Name": "Power Studio"
+  },
+  {
+    "Id": 8,
+    "Name": "Stone Custom Studio"
+  },
+  {
+    "Id": 9,
+    "Name": "Surge Studio"
+  },
+  {
+    "Id": 10,
+    "Name": "YZ Studio"
+  }
+]

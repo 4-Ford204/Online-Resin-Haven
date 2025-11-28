@@ -1,0 +1,102 @@
+﻿[
+  {
+    "Id": 1,
+    "FirstName": "John",
+    "LastName": "Doe",
+    "Email": "john.doe@example.com",
+    "Password": "P@ssw0rd123",
+    "Gender": 1,
+    "Phone": "123-456-7890",
+    "Address": "123 Elm Street"
+  },
+  {
+    "Id": 2,
+    "FirstName": "Jane",
+    "LastName": "Smith",
+    "Email": "jane.smith@example.com",
+    "Password": "SecurePass!456",
+    "Gender": 0,
+    "Phone": null,
+    "Address": "456 Oak Avenue"
+  },
+  {
+    "Id": 3,
+    "FirstName": "Alice",
+    "LastName": "Johnson",
+    "Email": "alice.johnson@example.com",
+    "Password": "MyPassword789",
+    "Gender": 0,
+    "Phone": "987-654-3210",
+    "Address": null
+  },
+  {
+    "Id": 4,
+    "FirstName": "Bob",
+    "LastName": "Brown",
+    "Email": "bob.brown@example.com",
+    "Password": "BobSecurePwd!",
+    "Gender": 1,
+    "Phone": null,
+    "Address": null
+  },
+  {
+    "Id": 5,
+    "FirstName": "Charlie",
+    "LastName": "Nguyen",
+    "Email": "charlie.nguyen@example.com",
+    "Password": "CharL13Pwd!",
+    "Gender": 1,
+    "Phone": "098-111-2222",
+    "Address": "789 Maple Lane"
+  },
+  {
+    "Id": 6,
+    "FirstName": "Linh",
+    "LastName": "Tran",
+    "Email": "linh.tran@example.com",
+    "Password": "LinhTran123!",
+    "Gender": 0,
+    "Phone": "090-222-3333",
+    "Address": "101 Phan Dinh Phung"
+  },
+  {
+    "Id": 7,
+    "FirstName": "David",
+    "LastName": "Lee",
+    "Email": "david.lee@example.com",
+    "Password": "DL33Strong",
+    "Gender": 1,
+    "Phone": "321-444-5555",
+    "Address": "202 Palm Drive"
+  },
+  {
+    "Id": 8,
+    "FirstName": "Emma",
+    "LastName": "Nguyen",
+    "Email": "emma.nguyen@example.com",
+    "Password": "EmmaPwd!2024",
+    "Gender": 0,
+    "Phone": null,
+    "Address": "303 Rose Blvd"
+  },
+  {
+    "Id": 9,
+    "FirstName": "Lucas",
+    "LastName": "Martinez",
+    "Email": "lucas.martinez@example.com",
+    "Password": "LucasMart2024",
+    "Gender": 1,
+    "Phone": "555-666-7777",
+    "Address": null
+  },
+  {
+    "Id": 10,
+    "FirstName": "Sara",
+    "LastName": "Connor",
+    "Email": "sara.connor@example.com",
+    "Password": "T3rm1nator!",
+    "Gender": 0,
+    "Phone": "111-222-3333",
+    "Address": "Skynet HQ"
+  }
+]
