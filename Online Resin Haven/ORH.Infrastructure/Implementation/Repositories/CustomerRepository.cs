@@ -16,9 +16,9 @@ namespace ORH.Infrastructure.Implementation.Repositories
             return await _dbContext.Customers.AnyAsync(c => c.Email.Equals(email));
         }
 
-        public IQueryable<Domain.Entities.Customer> GetCustomersQueryable()
+        public IQueryable<Domain.Entities.Customer> GetCustomersQueryable(int id = 0)
         {
-            return _dbContext.Customers.Where(c => c.Status == Status.Active).AsQueryable();
+            return _dbContext.Customers.Where(c => (id <= 0 || c.Id == id) && c.Status == Status.Active).AsQueryable();
         }
 
         public async Task CreateCustomerAsync(Domain.Entities.Customer customer)

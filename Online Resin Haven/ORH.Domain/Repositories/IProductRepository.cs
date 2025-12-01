@@ -5,6 +5,6 @@ namespace ORH.Domain.Repositories
     public interface IProductRepository
     {
         Task<bool> IsProductInStockAsync(int id, int quantity);
-        IQueryable<Product> GetProductsQueryable();
+        IQueryable<Product> GetProductsQueryable(int id = 0);
     }
 }

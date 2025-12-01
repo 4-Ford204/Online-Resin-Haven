@@ -11,14 +11,14 @@ namespace ORH.Infrastructure.Implementation.Repositories
     {
         private readonly OnlineResinHaven _dbContext = dbContext;
 
-        public Task<bool> IsProductInStockAsync(int id, int quantity)
+        public async Task<bool> IsProductInStockAsync(int id, int quantity)
         {
-            return _dbContext.Products.AnyAsync(p => p.Id == id && p.Quantity >= quantity);
+            return await _dbContext.Products.AnyAsync(p => p.Id == id && p.Quantity >= quantity);
         }
 
-        public IQueryable<Domain.Entities.Product> GetProductsQueryable()
+        public IQueryable<Domain.Entities.Product> GetProductsQueryable(int id = 0)
         {
-            return _dbContext.Products.Where(p => p.Status == Status.Active).AsQueryable();
+            return _dbContext.Products.Where(p => (id <= 0 || p.Id == id) && p.Status == Status.Active).AsQueryable();
         }
     }
 }

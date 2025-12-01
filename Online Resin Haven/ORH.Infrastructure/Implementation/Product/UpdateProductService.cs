@@ -12,8 +12,7 @@ namespace ORH.Infrastructure.Implementation.Product
 
         public async Task<bool> ExecuteUpdateProductQuantityAsync(int id, int quantity)
         {
-            var product = await _context.ProductRepository.GetProductsQueryable()
-                .FirstOrDefaultAsync(p => p.Id == id && p.Quantity >= quantity);
+            var product = await _context.ProductRepository.GetProductsQueryable(id: id).FirstOrDefaultAsync(p => p.Quantity >= quantity);
 
             if (product == null)
             {
