@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using ORH.Application.Interface.Customer;
 using ORH.Application.UseCase.Customer.Commands;
 using ORH.Domain.Repositories;
